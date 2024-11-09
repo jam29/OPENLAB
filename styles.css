@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "CustomFont"; /* Choose a name for the font */
+    src: url("typewriter_condensed/typewcond_regular.otf") format("opentype"); /* Path to your .otf file */
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Apply the font to elements */
+body {
+    font-family: "CustomFont", sans-serif;
+}
+
+.red {
+    color:red;
+}
+.blue {
+    color:blue;
+}
